@@ -17,6 +17,7 @@ Se crea la clase **ProductManager** , la cual contiene los siguientes metodos pu
 - getProductByid
 ```
 <br>
+
 Existe un metodo privado que sirve de validador del code que se esta intentando guardar con **addProduct**
 
 <br>
