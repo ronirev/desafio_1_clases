@@ -41,14 +41,14 @@ El campo **code** se genera automaticamente de manera incremental a medida que s
 
 ```js
 export default class Product {
-    static #nextCode = 1;
+    static #count = 1;
 
     constructor(title, description, price, thumbnail, stock){
         this.title = title;
         this.description = description;
         this.price = price;
         this.thumbnail = thumbnail;
-        this.code = Product.#nextCode++; 
+        this.code = Product.#count++; 
         this.stock = stock 
     }
 }
